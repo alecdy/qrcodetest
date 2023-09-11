@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//ical.marudot.com//iCal Event Maker
+CALSCALE:GREGORIAN
+BEGIN:VTIMEZONE
+TZID:Asia/Shanghai
+LAST-MODIFIED:20230407T050750Z
+TZURL:https://www.tzurl.org/zoneinfo-outlook/Asia/Shanghai
+X-LIC-LOCATION:Asia/Shanghai
+BEGIN:STANDARD
+TZNAME:CST
+TZOFFSETFROM:+0800
+TZOFFSETTO:+0800
+DTSTART:19700101T000000
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTAMP:20230911T000058Z
+UID:1694390366449-36035@ical.marudot.com
+DTSTART;TZID=Asia/Shanghai:20230924T090000
+RRULE:FREQ=MONTHLY;BYMONTHDAY=24
+DTEND;TZID=Asia/Shanghai:20230924T180000
+SUMMARY:Sample Event: 15% Off sa Cebuana Lhuillier Jewelry!
+URL:https://www.cebuanalhuillier.com/
+DESCRIPTION:Ka-Cebuana 24K cardholders! Stay golden everyday! Enjoy 15% off every 24th of the month. Be a 24K cardholder today!
+LOCATION:Sa Malapit na Cebuana Lhuillier Branch
+END:VEVENT
+END:VCALENDAR
